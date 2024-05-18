@@ -1,0 +1,83 @@
+body {
+  background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2.5;
+}
+.fjalla-one-regular {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}  
+
+h1, h2 {
+  background: transparent;
+  color: #ffffff; 
+}
+.carousel-item img {
+  max-height: 500px; 
+  width: auto;
+  margin: auto;
+}
+hr {
+  border: 1px solid #7191d8; 
+  margin: 20px 0; 
+}
+.img-size {
+  max-height: 300px;
+  width: auto;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  color: #ffffff;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  color: #333;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
